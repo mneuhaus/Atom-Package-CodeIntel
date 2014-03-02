@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable code-intel': 'code-intel:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'code-intel'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'code-intel:toggle' }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "code-intel",
+  "main": "./lib/code-intel",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["code-intel:toggle"],
+  "repository": "https://github.com/atom/code-intel",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
